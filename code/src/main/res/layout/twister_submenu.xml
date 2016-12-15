@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/black">
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@drawable/twister_submenu_buttons"
+            android:text="Play Game"
+            android:textColor="@color/white"
+            android:id="@+id/tapRace_playGame"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="125dp"
+
+            android:onClick="playGame_Twister" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@drawable/twister_submenu_buttons"
+            android:text="Rules"
+            android:textColor="@color/white"
+            android:id="@+id/tapRace_instructions"
+            android:layout_below="@+id/tapRace_playGame"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:onClick="instructions_Twister" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:background="@drawable/twister_submenu_buttons"
+            android:text="Main Menu"
+            android:textColor="@color/white"
+            android:id="@+id/twister_gameOptions"
+            android:layout_below="@+id/tapRace_instructions"
+            android:layout_centerHorizontal="true"
+            android:onClick="gameoptions_Twister"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:background="@drawable/finger_twist"
+            android:layout_marginTop="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

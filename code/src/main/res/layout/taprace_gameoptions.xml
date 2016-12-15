@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Options!"
+        android:id="@+id/twister_gameOptions"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound Effects"
+        android:id="@+id/twister_soundEffectsText"
+        android:layout_below="@+id/twister_gameOptions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/twister_soundEffects"
+        android:layout_below="@+id/twister_gameOptions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:checked="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Difficulty"
+        android:id="@+id/twister_difficultyText"
+        android:layout_below="@+id/twister_soundEffects"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="25dp"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/twister_difficulty"
+        android:textOn="Easy"
+        android:textOff="Hard"
+        android:layout_below="@+id/twister_difficultyText"
+        android:layout_centerHorizontal="true"
+        android:checked="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/taprace_length"
+        android:textOn="Short"
+        android:textOff="Long"
+        android:checked="true"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/twister_difficulty"
+        android:layout_alignStart="@+id/twister_difficulty" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Length"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/twister_difficulty"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="25dp"/>
+
+
+</RelativeLayout>

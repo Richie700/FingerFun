@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FingerFun</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="player_blue_win">Player Blue Wins!</string>
+    <string name="player_red_win">Player Red Wins!</string>
+    <string name="twister_instructions">Challenge your friends to a battle of epically small proportions. This game will have you and your friends bending and twisting your fingers in ways that you thought could never be achieved. The rules to this game are simple. When a button appears in the color of the player (Player 1 being blue) and (Player 2 being pink) that player is responsible for placing a finger on their tile. The tricky part is that the player can not remove any fingers or they will lose. Once any finger is removed from an active button the game ends, and a winner is declared.</string>
+    <string name="taprace_instructions">On your marks, get set, TAP! Challenge your friends to a horse race fueled by a finger tapping frenzy. In this game, Player 1 and Player 2 are presented with a button that corresponds to the color of their horse. The objective is for the players to tap their button as fast as possible until their horse reaches the finish line. Once a player has reached the finish a winner will be declared. From here players can start another race, or return to the main menu.</string>
+
+</resources>
